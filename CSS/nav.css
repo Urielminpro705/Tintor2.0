@@ -1,4 +1,4 @@
-nav {
+#nav {
     position: fixed;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -8,6 +8,7 @@ nav {
     overflow: hidden;
     font-size: 1rem;
     font-weight: 300;
+    height: 100px;
 }
 
 .nav-item {
@@ -43,15 +44,15 @@ nav {
 }
 
 @media (max-width: 920px) {
-    nav {
+    #nav {
         grid-template-columns: 100%;
-        grid-template-rows: 80px 30px 30px 30px 30px;
+        grid-template-rows: 80px 35px 35px 35px 35px;
         width: 100%;
         background-color: #421a04c8;
         overflow: hidden;
         font-size: 0.8rem;
         font-weight: 300;
-        height: 200px;
+        height: 50px;
         padding-bottom: 30px;
     }
 

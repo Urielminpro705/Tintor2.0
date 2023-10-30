@@ -2,10 +2,9 @@ $(document).ready(function () {
     var btn_HamburguesaUWU = $("#btn-menu");
     var nav = $("#nav");
     var alturaOriginal = 50;
-    var alturaCambiada = 200;
-    var items = $(".nav-item")
-
+    var alturaCambiada = 220;
     var isAlturaOriginal = true;
+    var anchoLimite = 920;
 
     btn_HamburguesaUWU.click(function () {
         if (isAlturaOriginal) {
@@ -15,5 +14,25 @@ $(document).ready(function () {
         }
 
         isAlturaOriginal = !isAlturaOriginal;
+        ajustarAltura();
+    });
+
+    function ajustarAltura() {
+        var anchoActual = nav.width();
+
+        if (anchoActual >= anchoLimite) {
+            nav.css("height", "100px");
+        }
+
+        if (anchoActual < anchoLimite) {
+            nav.css("height", "50px");
+        }
+    }
+
+    ajustarAltura();
+
+    $(window).resize(function () {
+        ajustarAltura();
     });
 });
+
