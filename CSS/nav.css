@@ -34,18 +34,19 @@ nav {
 .nav-celular i {
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
 
 @media (max-width: 920px) {
     nav {
         grid-template-columns: 100%;
-        grid-template-rows: 80px 25px 25px 25px 25px;
+        grid-template-rows: 80px 30px 30px 30px 30px;
         width: 100%;
         background-color: #421a04c8;
         overflow: hidden;
         font-size: 0.8rem;
         font-weight: 300;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
     }
 
     .nav-celular {
