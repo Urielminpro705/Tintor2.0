@@ -16,9 +16,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.nav-item a {
     color: white;
     text-decoration: none;
 }
@@ -29,12 +26,20 @@ nav {
 
 .nav-celular {
     display: none;
+    text-align: center;
 }
 
-.nav-celular i {
-    text-align: center;
-    font-size: 2rem;
+#btn-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    height: 100%;
+    padding: 0px;
+    padding-right: 15px;
 }
 
 @media (max-width: 920px) {
@@ -46,6 +51,7 @@ nav {
         overflow: hidden;
         font-size: 0.8rem;
         font-weight: 300;
+        height: 200px;
         padding-bottom: 30px;
     }
 
