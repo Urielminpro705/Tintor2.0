@@ -13,7 +13,7 @@
 }
 
 #nav.expandido {
-    background-color: #421a04;
+    background-color: var(--Cafe_Oscuro);
     height: 220px;
 }
 

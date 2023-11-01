@@ -1,3 +1,14 @@
+:root {
+    --Blanco: #FFFFFF;
+    --Gris: #C4C4C4;
+    --Naranja_Obscuro: #CC6C37;
+    --Cafe: #6D4A37;
+    --Negro: #000000;
+    --Gris_Oscuro: #5E5E5E;
+    --Gris_Claro: #F9F9F9;
+    --Cafe_Oscuro: #421A04;
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
