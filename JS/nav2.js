@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    redimensionar();
     let nav = $("#nav")
     let isAlturaOriginal = true;
     let btn_HamburguesaUWU = $("#btn-menu");
@@ -23,7 +24,16 @@ $(document).ready(function() {
         }
     }
 
+    function redimensionar () {
+        var imagen = $("#slider1");
+        var altura_imagen = imagen.css("height");
+        var carrusel = $(".carrusel");
+
+        carrusel.css("height", altura_imagen);
+    }
+
     $(window).resize(function () {
         comprobar();
+        redimensionar();
     });
 });

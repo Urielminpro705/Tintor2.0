@@ -5,6 +5,15 @@
 .carrusel {
     position: relative;
     width: 100%;
+    overflow: hidden;
+}
+
+.flechas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .slider{
@@ -21,17 +30,16 @@
 }
 
 .btns-slider {
+    margin-left: 10px;
+    padding-right: 10px;
+    color: rgb(162, 162, 162);
     display: flex;
-    position: absolute;
-
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 3rem;
-    width: 100px;
-    height: 100px;
     background-color: transparent;
-    border: 2px solid black;
+    border: none;
     z-index: 2;
 }
 
