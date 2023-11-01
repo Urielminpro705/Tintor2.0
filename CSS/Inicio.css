@@ -2,8 +2,41 @@
     padding-top: 100px;
 }
 
+.carrusel {
+    position: relative;
+    width: 100%;
+}
+
+.slider{
+    position: absolute;
+    width: 100%;
+}
+
+#slider1 {
+    left: 0;
+}
+
+#slider2 {
+    left: 100%;
+}
+
+.btns-slider {
+    display: flex;
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid black;
+    z-index: 2;
+}
+
 @media (max-width: 920px) {
     #Todo {
-        margin-top: 80px;
+        padding-top: 80px;
     }
 }
