@@ -82,7 +82,22 @@ h2 {
     background-image: url(../Imagenes/Botas/bota_avestruz_3.png);
 }
 
+.bota::before {
+    top: 0;
+    content: '';
+    position: absolute;
+    background-color: var(--Sombra_Blanca);
+    width: 281px;
+    height: 423px;
+    transition: 1s;
+}
+
+.bota:hover::before {
+    background-color: transparent;
+}
+
 .bota {
+    position: relative;
     width: 281px;
     height: 423px;
     background-position: center;
