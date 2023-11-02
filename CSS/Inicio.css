@@ -70,6 +70,40 @@ h2 {
     flex-wrap: wrap;
 }
 
+.bota::after {
+    content: "";
+    left: 3.5%;
+    top: 2.5%;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.bota::before {
+    content: "";
+    right: 3.2%;
+    bottom: 2.2%;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.bota:hover::before {
+    border-bottom: 1px solid var(--Blanco);
+    border-right: 1px solid var(--Blanco);
+    width: 93%;
+    height: 95%;
+}
+
+.bota:hover::after {
+    border-top: 1px solid var(--Blanco);
+    border-left: 1px solid var(--Blanco);
+    width: 93%;
+    height: 95%;
+}
+
 #bt1 {
     background-image: url(../Imagenes/Botas/bota_avestruz_1.png);
 }
