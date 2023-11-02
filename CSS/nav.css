@@ -4,7 +4,7 @@
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 100px;
     width: 100%;
-    background-color: #421a04c8;
+    background-color: var(--Cafe_Oscuro_Transparencia);
     overflow: hidden;
     font-size: 1rem;
     font-weight: 300;
@@ -53,11 +53,7 @@
     #nav {
         grid-template-columns: 100%;
         grid-template-rows: 80px 35px 35px 35px 35px;
-        width: 100%;
-        background-color: #421a04c8;
-        overflow: hidden;
         font-size: 0.8rem;
-        font-weight: 300;
         height: 50px;
         padding-bottom: 30px;
         transition: 0.3s;
