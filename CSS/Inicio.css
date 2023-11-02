@@ -43,6 +43,52 @@
     z-index: 2;
 }
 
+.seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.espaciado {
+    letter-spacing: 0.5rem;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.botas_avestruz {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    flex-wrap: wrap;
+}
+
+#bt1 {
+    background-image: url(../Imagenes/Botas/bota_avestruz_1.png);
+}
+
+#bt2 {
+    background-image: url(../Imagenes/Botas/bota_avestruz_2.png);
+}
+
+#bt3 {
+    background-image: url(../Imagenes/Botas/bota_avestruz_3.png);
+}
+
+.bota {
+    width: 281px;
+    height: 423px;
+    background-position: center;
+    background-size: cover;
+}
+
 @media (max-width: 920px) {
     #Todo {
         padding-top: 80px;
