@@ -357,4 +357,14 @@ h2 {
     #conocenos-sub {
         font-size: 1.7rem;
     }
+
+    .btns-slider-bolita {
+        width: 30px;
+        height: 5px;
+    }
+    
+    .bol-selec {
+        width: 60px;
+        height: 5px;
+    }
 }
