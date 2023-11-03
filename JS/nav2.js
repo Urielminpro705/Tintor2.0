@@ -22,6 +22,14 @@ $(document).ready(function() {
             nav.removeClass("expandido")
             isAlturaOriginal = !isAlturaOriginal;
         }
+
+        if(display == "none") {
+            nav.addClass("transparencia")
+        }
+
+        if(display == "grid") {
+            nav.removeClass("transparencia")
+        }
     }
 
     function redimensionar () {

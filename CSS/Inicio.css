@@ -12,6 +12,10 @@
     max-width: 1500px;
 }
 
+.chico {
+    width: 282px;
+}
+
 .flechas {
     display: flex;
     justify-content: space-between;
@@ -63,11 +67,17 @@
     padding-bottom: 30px;
 }
 
+.colum {
+    display: flex;
+    flex-direction: column;
+}
+
 .espaciado {
     letter-spacing: 0.5rem;
 }
 
 h2 {
+    margin-top: 30px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 35px;
@@ -128,6 +138,24 @@ h2 {
     background-image: url(../Imagenes/Botas/bota_avestruz_3.png);
 }
 
+#bt4 {
+    background-image: url(../Imagenes/Botas/cabra3.png);
+}
+
+#bt5 {
+    background-image: url(../Imagenes/Botas/bota_avestruz_3.png);
+}
+
+#bt6 {
+    background-image: url(../Imagenes/Accesorios/cinto2.png);
+    height: 316px;
+}
+
+#bt7 {
+    background-image: url(../Imagenes/Accesorios/Cartera.png);
+    height: 324px;
+}
+
 .bota:hover {
     box-shadow: 0px 0px 15px 500px transparent inset;
 }
@@ -141,7 +169,7 @@ h2 {
     transition: 0.8s;
 }
 
-.chico {
+.mediano {
     width: 281px;
     height: 423px;
 }
@@ -149,14 +177,6 @@ h2 {
 .grande {
     width: 436px;
     height: 657px;
-}
-
-#bt4 {
-    background-image: url(../Imagenes/Botas/cabra3.png);
-}
-
-#bt5 {
-    background-image: url(../Imagenes/Botas/bota_avestruz_3.png);
 }
 
 .pie-titulo::after {
@@ -185,7 +205,7 @@ h2 {
         padding-top: 80px;
     }
 
-    .chico {
+    .mediano {
         width: 158.1px;
         height: 238px;
     }

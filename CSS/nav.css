@@ -10,6 +10,11 @@
     font-weight: 300;
     height: 100px;
     z-index: 10;
+    transition: 0.3s;
+}
+
+#nav.transparencia:hover {
+    background-color: var(--Cafe_Oscuro);
 }
 
 #nav.expandido {
