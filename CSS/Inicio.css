@@ -10,10 +10,7 @@
     width: 100%;
     overflow: hidden;
     max-width: 1500px;
-}
-
-.chico {
-    width: 282px;
+    min-width: 330px;
 }
 
 .flechas {
@@ -70,6 +67,7 @@
 .colum {
     display: flex;
     flex-direction: column;
+    row-gap: 21px;
 }
 
 .espaciado {
@@ -85,9 +83,9 @@ h2 {
 
 .botas {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 60%;
     flex-wrap: wrap;
     min-width: 900px;
 }
@@ -148,12 +146,18 @@ h2 {
 
 #bt6 {
     background-image: url(../Imagenes/Accesorios/cinto2.png);
-    height: 316px;
 }
 
 #bt7 {
     background-image: url(../Imagenes/Accesorios/Cartera.png);
     height: 324px;
+}
+
+#bt8 {
+    background-image: url(../Imagenes/Zapatos/zapato2.png);
+    width: 602px;
+    height: 661px;
+    margin: 0;
 }
 
 .bota:hover {
@@ -177,6 +181,11 @@ h2 {
 .grande {
     width: 436px;
     height: 657px;
+}
+
+.chico {
+    width: 282px;
+    margin: 0;
 }
 
 .pie-titulo::after {
@@ -222,6 +231,25 @@ h2 {
     .botas {
         min-width: 500px;
     }
+
+    .colum {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .chico {
+        width: 245.3px;
+    }
+
+    #bt7 {
+    }
+
+    #bt8 {
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -244,7 +272,7 @@ h2 {
     }
 
     .botas {
-        min-width: 340px;
+        min-width: 330px;
     }
 
     h2 {
@@ -256,5 +284,18 @@ h2 {
     .seccion {
         margin-bottom: 0px;
         padding-bottom: 10px;
+    }
+
+    .chico {
+        width: 158.1px;
+        height: 203.67px;
+    }
+
+    #bt7 {
+        height: 203.67px;
+    }
+
+    #bt8 {
+        height: 400px;
     }
 }
