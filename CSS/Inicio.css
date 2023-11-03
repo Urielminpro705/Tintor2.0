@@ -146,6 +146,7 @@ h2 {
 
 #bt6 {
     background-image: url(../Imagenes/Accesorios/cinto2.png);
+    height: 316px;
 }
 
 #bt7 {
@@ -209,6 +210,31 @@ h2 {
     height: 15%;
 }
 
+#conocenos-sub {
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+    color: var(--Gris_Oscuro);
+}
+
+.btn-Gris {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Gris_Oscuro);
+    width: 260px;
+    height: 35px;
+    border: 2px solid var(--Gris);
+    background-color: var(--Blanco);
+    transition: 0.3s;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.btn-Gris:hover {
+    background-color: var(--Gris);
+    color: var(--Blanco);
+}
+
 @media (max-width: 920px) {
     #Todo {
         padding-top: 80px;
@@ -240,9 +266,6 @@ h2 {
 
     .chico {
         width: 245.3px;
-    }
-
-    #bt7 {
     }
 
     #bt8 {
@@ -288,6 +311,9 @@ h2 {
 
     .chico {
         width: 158.1px;
+    }
+
+    #bt6 {
         height: 203.67px;
     }
 
@@ -297,5 +323,9 @@ h2 {
 
     #bt8 {
         height: 400px;
+    }
+
+    #conocenos-sub {
+        font-size: 1.7rem;
     }
 }
