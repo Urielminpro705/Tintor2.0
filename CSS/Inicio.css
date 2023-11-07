@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    max-width: 1500px;
+    max-width: 2000px;
     min-width: 330px;
 }
 
@@ -82,8 +82,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 1500px;
     padding-bottom: 30px;
+    max-width: 2000px;
+}
+
+.section-cont {
+    max-width: 1500px;
 }
 
 .colum {
