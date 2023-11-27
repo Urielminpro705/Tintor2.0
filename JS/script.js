@@ -113,7 +113,7 @@ function actualizarCarrito() {
 
 function cerrarCarrito() {
     var carritoDiv = document.getElementById('carrito');
-    carritoDiv.style.left = '-500px';
+    carritoDiv.style.left = '-100%';
 }
 
 function toggleCarrito() {
@@ -121,7 +121,7 @@ function toggleCarrito() {
     var carritoLeft = carritoDiv.style.left;
 
     if (carritoLeft === '0px' || carritoLeft === '') {
-        carritoDiv.style.left = '-500px';
+        carritoDiv.style.left = '-100%';
     } else {
         carritoDiv.style.left = '0px';
     }

@@ -319,6 +319,7 @@ p {
     left: 0;
     top: 0;
     width: 10%;
+    min-width: 300px;
     padding: 20px;
     background-color: #f0f0f0;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -374,7 +375,7 @@ p {
 /* Estilos para pantallas más pequeñas que 600px */
 @media only screen and (max-width: 600px) {
     .carrito {
-        width: 45%; /* Ocupar todo el ancho en dispositivos móviles */
+        width: 50%; /* Ocupar todo el ancho en dispositivos móviles */
         height: 50%;
         position: fixed;
         bottom: 0; /* Colocar en la parte inferior */
