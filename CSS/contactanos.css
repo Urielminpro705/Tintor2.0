@@ -1,0 +1,26 @@
+.map-responsive {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.map-responsive iframe {
+    overflow: hidden;
+    height: 400px;
+    width: 750px;
+}
+
+@media (max-width: 920px) {
+    .map-responsive iframe {
+        width: 515px;
+    }
+}
+
+@media (max-width: 520px) {
+    .map-responsive iframe {
+        width: 320px;
+    }
+}

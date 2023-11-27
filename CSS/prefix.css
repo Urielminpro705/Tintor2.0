@@ -22,3 +22,34 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+.btn-modificar-cart {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 30px;
+    background-color: var(--Blanco);
+    border: 2px solid var(--Naranja_Obscuro);
+    color: var(--Naranja_Obscuro);
+    transition: 0.3s;
+}
+
+.btn-modificar-cart:hover {
+    color: var(--Blanco);
+    background-color: var(--Naranja_Obscuro);
+}
+
+.cont-btn-carrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-item-carrito {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column
+}

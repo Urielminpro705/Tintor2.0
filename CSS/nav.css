@@ -23,6 +23,7 @@
 #nav.expandido {
     background-color: var(--Cafe_Oscuro);
     height: 220px;
+    padding-bottom: 10px;
 }
 
 .nav-item {
@@ -30,7 +31,7 @@
     transition: 0.3s;
 }
 
-.nav-link {
+.nav-links {
     position: relative;
     text-decoration: none;
     color: white;
@@ -39,7 +40,7 @@
     border-bottom: 3px solid transparent;
 }
 
-.nav-link::before {
+.nav-links::before {
     left: 50%;
     transform: translate(-50%);
     bottom: -2px;
@@ -51,7 +52,7 @@
     transition: 0.3s ease;
 }
 
-.nav-link:hover::before {
+.nav-links:hover::before {
     width: 100%;
 }
 
@@ -89,8 +90,7 @@
         grid-template-columns: 100%;
         grid-template-rows: 80px 35px 35px 35px 35px;
         font-size: 0.8rem;
-        height: 50px;
-        padding-bottom: 30px;
+        height: 80px;
         transition: 0.3s;
     }
 

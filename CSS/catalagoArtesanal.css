@@ -1,0 +1,456 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+/* Seccion de cintos */
+h2 {
+    margin-top: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 35px;
+}
+p {
+    font-weight: 300; /* You can adjust this value */
+    font-size: 20px; /* You can adjust this value */
+}
+
+.cintos-section {
+    max-width: 1200px;
+    margin: 0 auto 50px; 
+}
+
+.cintos-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px;
+    margin: 0 auto; 
+    max-width: calc(100% - 60px); 
+}
+
+/* CSS para las imagenes de cintos */
+
+.cintos-container img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin-top: 50px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.cinto-item {
+    position: relative;
+}
+
+.cinto-content {
+    position: relative;
+}
+
+.cinto-card {
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: -10px; 
+    z-index: -1;
+}
+
+
+
+/* Estilos para pantallas mas pequeñas que 600px */
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    /* Tus estilos para pantallas pequeñas aquí */
+    .cintos-container {
+        grid-template-columns: 1fr; 
+        text-align: center; 
+    
+    }
+
+    .cintos-container img {
+        max-width: 30%; 
+        margin-top: 15px; 
+        margin-right: 400px; 
+        margin-bottom: 100px; 
+        transform: none;
+
+    }
+
+    .cinto-card {
+        max-width: 70% !important; 
+        height: 160px; 
+        margin-left: 100px; 
+        margin-right: auto;
+        margin-bottom: 8px; 
+
+        margin-top: -268px !important; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+
+    }
+  }
+  
+/* Estilos para pantallas entre 601px y 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .cintos-container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+      text-align: center;
+    }
+  
+    .cintos-container img {
+      max-width: 100%; /* Cambiado a un porcentaje para que sea relativo al contenedor padre */
+      margin-top: 15px;
+      margin-right: 0; /* Eliminado el margen derecho */
+      margin-bottom: 20px; /* Ajusta este valor para cambiar el margen inferior entre imágenes */
+      transform: none;
+    }
+  
+    .cinto-card {
+      max-width: 100% !important; /* La card ocupa el 100% del ancho del contenedor padre */
+      height: auto; /* Ajusta este valor para cambiar la altura de la card */
+      margin: 0; /* Eliminados los márgenes para evitar movimientos */
+      margin-top: -30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+    }
+  }
+  
+  /* Estilos para pantallas más grandes que 901px */
+  @media only screen and (min-width: 901px) {
+    /* Tus estilos para pantallas grandes aquí */
+    .cintos-container {
+      grid-template-columns: repeat(4, 1fr);
+      text-align: left;
+    }
+  
+    .cintos-container img {
+      margin-top: 20px;
+     
+     
+    }
+     .cinto-card {
+      max-width: 100% !important; /* La card ocupa el 100% del ancho del contenedor padre */
+      height: auto; /* Ajusta este valor para cambiar la altura de la card */
+      margin: 0; /* Eliminados los márgenes para evitar movimientos */
+      margin-top: -5px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
+
+      z-index: 1;
+      
+    }
+  }
+  
+
+
+
+
+
+
+  /* Estilos específicos para el tema de botas */
+
+/* Estilos para dispositivos móviles (ancho de pantalla entre 500px y 600px) */
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .cintos-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .cintos-container img {
+        max-width: 30%;
+        margin-top: 15px;
+        margin-right: 0; /* Eliminado el margen derecho */
+        margin-bottom: 100px;
+        transform: none;
+    }
+
+    .cinto-card {
+        max-width: 70% !important;
+        height: 160px;
+        margin-left: 0; /* Mantiene la card centrada */
+        margin-right: auto;
+        margin-bottom: 8px;
+
+        margin-top: -268px !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* Estilos para PCs (ancho de pantalla mayor a 600px) */
+/* Styles for larger screens */
+
+
+/* Seccion de botas */
+.bota-section {
+    max-width: 1200px;
+    margin: 0 auto 50px;
+}
+
+.bota-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    max-width: calc(100% - 60px);
+}
+
+/* CSS para las imágenes de botas */
+.bota-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 50px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+
+    
+}
+
+.bota-item {
+    position: relative;
+}
+
+.bota-content {
+    position: relative;
+}
+
+.bota-card {
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: -10px;
+
+}
+
+/* Estilos para pantallas más pequeñas que 600px */
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .bota-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .bota-container img {
+        max-width: 30%;
+        margin-top: 15px;
+        margin-right: 400px;
+        margin-bottom: 100px;
+        transform: none;
+    }
+
+    .bota-card {
+        max-width: 70% !important;
+        height: 160px;
+        margin-left: 100px;
+        margin-right: auto;
+        margin-bottom: 8px;
+        margin-top: -273px !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* Estilos para pantallas entre 601px y 900px */
+
+/* Estilos para pantallas más grandes que 901px */
+@media only screen and (min-width: 901px) {
+    .bota-container {
+        grid-template-columns: repeat(3, 1fr);
+        text-align: left;
+    }
+
+    .bota-container img {
+        margin-top: 20px;
+        
+
+        
+    }
+
+    .bota-card {
+        max-width: 100% !important;
+        height: auto;
+        margin: 0;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        margin-top: -20px;
+        box-shadow: -1px 4px 3px rgba(0, 0, 0, 0.3);
+    }
+    
+}
+
+
+
+
+/* Agrega estilos según sea necesario */
+
+.add-to-cart-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn i {
+    margin-right: 5px;
+}
+
+/* Hover para cambiar el color de fondo */
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+.carrito {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+/* Estilos para la barra lateral del carrito */
+#carrito-lista {
+    list-style-type: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para el botón de agregar al carrito */
+.agregar-carrito {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cerrar-carrito-btn {
+    position: absolute;
+    top: 10px; /* Ajusta según sea necesario para la distancia desde la parte superior */
+    right: 10px; /* Ajusta según sea necesario para la distancia desde la derecha */
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 920px) {
+    #Todo {
+        padding-top: 80px;
+    }
+}
+
+/* Estilos para pantallas más pequeñas que 600px */
+@media only screen and (max-width: 600px) {
+    .carrito {
+        width: 45%; /* Ocupar todo el ancho en dispositivos móviles */
+        height: 50%;
+        position: fixed;
+        bottom: 0; /* Colocar en la parte inferior */
+        left: 0;
+        padding: 10px;
+        margin-top: 90px; /* Eliminar el margen superior */
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra en la parte superior para resaltar */
+        border-radius: 8px;
+        z-index: 1;
+    }
+
+    #carrito-lista {
+        padding-left: 10px; /* Ajustar el espacio en la lista dentro del carrito */
+    }
+
+    .total {
+        margin-top: 10px; /* Ajustar el espacio del total en dispositivos móviles */
+    }
+
+    #Todo {
+        padding-top: 80px;
+    }
+}
+
+
+.cintos-container img,
+.bota-container img {
+    opacity: 0.9; /* Puedes ajustar este valor según tu preferencia */
+    transition: opacity 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.cintos-container img:hover,
+.bota-container img:hover {
+    opacity: 1; /* Restaura la opacidad al pasar el ratón sobre la imagen */
+}
+
+
+
+.esquina-inferior-derecha {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.card {
+    width: 30px;
+}
+.imagen-click:hover{
+    cursor: pointer;
+}
+.imagenes-model{
+    width: 400px;
+    height: 450px;
+    padding-left: 50px;
+}
+.texto-model{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.modal-w{
+    width: 1000px;
+}
+.texi{
+    text-align: left;
+    font-size: 20px;
+    margin: 40px;
+    padding-top: 30px;
+}
+.tit{
+    background-color: #8b6651;
+}
+.texi2{
+    text-align: left;
+    margin: 40px;
+    padding-top: 30px;
+}
